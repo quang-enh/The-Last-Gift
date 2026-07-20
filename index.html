@@ -93,6 +93,14 @@
       margin-right: 35vw;
     }
     
+    /* KÉT SẮT MỚI */
+    .safe-wrapper {
+      width: 1200px;
+      max-width: 95vw;
+      animation: riseUp 1.2s cubic-bezier(.22, 1, .36, 1) forwards;
+      position: relative;
+    }
+
     @media (max-width:768px) {
       #safe-screen {
         display: flex;
@@ -106,14 +114,6 @@
       .safe-wrapper {
         width: 28vw;
       }
-    }
-
-    /* KÉT SẮT MỚI */
-    .safe-wrapper {
-      width: 1200px;
-      max-width: 95vw;
-      animation: riseUp 1.2s cubic-bezier(.22, 1, .36, 1) forwards;
-      position: relative;
     }
 
     .safe-wrapper::after {
